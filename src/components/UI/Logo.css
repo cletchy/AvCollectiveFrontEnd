@@ -1,0 +1,16 @@
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+
+}
+
+.logo__image {
+  width: 100px;
+
+}
+
+.logo__p {
+  color: #d6a329;
+  margin-top: 150px;
+}

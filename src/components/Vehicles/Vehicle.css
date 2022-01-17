@@ -1,0 +1,27 @@
+
+
+.vehicle__card {
+    padding: 30px;
+   
+    justify-content: center;
+    width: 50rem;
+    align-items: center;
+    max-width: 95%;
+    border-radius: 12px ;
+    box-shadow: 0 1px 8px #4b4b4b;;
+  }
+  .vehicle__h3{
+    color: #4b4b4b;
+    font-size: 0.8rem;
+  }
+
+
+  .vehicle__line{
+    text-decoration: underline;
+    display: flex;
+    color: #4b4b4b;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top:30px;
+  }
+  

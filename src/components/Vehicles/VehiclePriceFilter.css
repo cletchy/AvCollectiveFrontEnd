@@ -1,0 +1,29 @@
+.vehicles-filter {
+    color: white;
+  
+  }
+  
+  .vehicles-filter__control {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .vehicles-filter label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #4b4b4b
+  }
+  
+  .vehicles-filter select {
+    font: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 3rem;
+    font-weight: bold;
+    border-radius: 12px;
+    border: #4b4b4b;
+    color: #d6a329;
+    background: #4b4b4b;
+  }

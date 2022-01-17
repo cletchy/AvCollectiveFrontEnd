@@ -1,0 +1,6 @@
+.card {
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #4b4b4b;
+  justify-content: space-between;
+}

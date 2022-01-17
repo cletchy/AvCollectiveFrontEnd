@@ -1,0 +1,39 @@
+.newUser {
+  color: #4b4b4b;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.newUser__control {
+  width: 100%;
+}
+
+.newUser h3 {
+  font-size: 1rem;
+}
+
+
+.newUser h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #4b4b4b;
+  text-decoration: underline;
+}
+.newUser p {
+  font-weight: bold;
+  font-size: rem;
+  margin-top: 200px;
+  color: #4b4b4b;
+}
+
+.newUser select {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 1rem ;
+  font-weight: bold;
+  border: #4b4b4b;
+  border-radius: 16px ;
+  color: #d6a329;
+  background: #4b4b4b;
+  text-align: center;
+}

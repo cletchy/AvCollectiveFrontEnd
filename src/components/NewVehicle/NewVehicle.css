@@ -1,0 +1,40 @@
+.new-vehicle {
+   
+    padding: 1rem;
+    margin-top: 1rem;
+  
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px #4b4b4b;
+  }
+  
+  .new-vehicle button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #4b4b4b;
+    background-color: #4b4b4b;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .new-vehicle button:hover,
+  .new-expense button:active {
+    background-color: #d6a329;
+    border-color: #4b4b4b;
+  }
+  
+  .new-vehicle button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-vehicle button.alternative:hover,
+  .new-vehicle button.alternative:active {
+    background-color: #ddb3f8;
+  }
+  

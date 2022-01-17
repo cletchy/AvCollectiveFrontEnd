@@ -1,0 +1,18 @@
+.App-setup{
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  
+  
+}
+
+.App-setup__step2{
+  padding-left: 120px;
+  padding-right: 50px;
+}
+
+.App-setup__p{
+  font-size: 1rem;
+  color: #d6a329;
+  margin-top: 300px;
+}

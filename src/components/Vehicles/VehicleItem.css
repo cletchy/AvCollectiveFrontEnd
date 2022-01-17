@@ -1,0 +1,63 @@
+.vehicle-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 8px #4b4b4b;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  background-color: #4b4b4b;
+}
+.vehicle-item__image {
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 110px;
+  pointer-events: none;
+}
+
+.vehicle-item__button {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(31, 31, 31);
+  background-color: #d6a329;
+  border: 1px solid #d6a329;
+  border-radius: 70px;
+  padding: 0.3rem 1.5rem;
+  margin-right: 15px;
+}
+
+.vehicle-item button:hover,
+.new-expense button:active {
+  background-color: #4b4b4b;
+  border-color: #d6a329;
+}
+
+.vehicle-item__card {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 0rem 1rem;
+  color: white;
+  align-items: flex-start;
+  flex-flow: column-reverse;
+  justify-content: flex-end;
+  font-size: 0.7rem;
+}
+
+.vehicle-item__price {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column-reverse;
+  justify-content: flex-start;
+  padding: 0rem 5rem;
+  flex-direction: row;
+  align-items: center;
+}
+
+.vehicle-item h2 {
+  font-size: 1rem;
+  flex: 1;
+  margin: 0 0rem;
+  color: white;
+}

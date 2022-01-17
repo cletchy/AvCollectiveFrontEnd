@@ -1,0 +1,32 @@
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome button {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem 4rem;
+  margin-top: 150px;
+  margin-left: 30px;
+  background-color: #4b4b4b;
+  color: #d6a329;
+  border-radius: 70px;
+
+  font-weight: bold;
+}
+
+.welcome button:hover,
+.new-expense button:active {
+  background-color: #d6a329;
+  color: #4b4b4b;
+  
+}
+
+.welcome p{
+    font-size: 1.5rem;
+    color: #4b4b4b;
+    font-weight: bold;
+    text-align: center;
+}

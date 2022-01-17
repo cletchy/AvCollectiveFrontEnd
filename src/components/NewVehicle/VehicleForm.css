@@ -1,0 +1,25 @@
+.new-vehicle__controls {
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.new-vehicle__controls label {
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+  color: #4b4b4b;
+}
+
+.new-vehicle__controls input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 420px;
+}
+
+.new-vehicle__actions {
+  text-align: right;
+}

@@ -1,0 +1,42 @@
+.Ride {
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 30px;
+
+  justify-content: space-between;
+}
+.Ride button {
+  width: 100%;
+  font-size: 1rem;
+  background-color: #4b4b4b;
+  color: #d6a329;
+  margin-top: 50px;
+  border-radius: 12px;
+  padding: 1.5rem;
+  font-weight: bold;
+}
+
+.Ride button:hover,
+.new-expense button:active {
+  background-color: #d6a329;
+  
+  color: #4b4b4b;
+}
+
+
+.Ride h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #4b4b4b;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.Ride h3 {
+  display: flex;
+  color: #4b4b4b;
+  font-size: 1rem;
+ 
+  align-items: flex-end;
+}
